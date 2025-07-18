@@ -189,5 +189,3 @@
   - Display the solutions.
 
 ---
-
-🧑‍💻 *Feel free to contribute your solutions in Python!*
