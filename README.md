@@ -8,15 +8,15 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 1 | **[Calculate the Factorial of a Number](./factorial.py)** | Ask the user for a positive integer → use a loop to compute `n!` → return & print the result. |
-| 2 | **[Sum of Digits of a Number](./sum_of_digits.py)** | Ask for an integer → treat it as a string to access each character → loop & sum the digits → print the total. |
-| 3 | **[Find the Minimum and Maximum in a List](./min_max.py)** | Ask for a list of numbers → use built‑ins `min()` / `max()` → display both values. |
-| 4 | **[Average of Several Numbers](./average.py)** | Ask for a list of numbers → compute `sum / len` → print the average. |
-| 5 | **[Generate a Multiplication Table](./multiplication_table.py)** | Ask for a base number and an upper limit → loop and print `n × i` for every `i` up to the limit. |
-| 6 | **[Solve a First‑Degree Equation (ax + b = 0)](./linear_equation.py)** | Ask for `a` and `b` → if `a ≠ 0`, solve `x = −b/a`; if `a = 0`, decide whether there’s **no** or **infinite** solutions. |
-| 7 | **[Sum of Squares in a List](./sum_of_squares.py)** | Ask for a list of numbers → square each → sum and print the result. |
-| 8 | **[Average of Even Numbers in a List](./average_even.py)** | Ask for a list → filter evens → compute average or print a “no even numbers” message. |
-| 9 | **[Check if a List is Increasing](./is_increasing.py)** | Ask for a list → verify each element is ≤ the next → print whether it’s sorted ascendingly. |
+| 1 | **[Calculate the Factorial of a Number](./ex01_factorial.py)** | Ask the user for a positive integer → use a loop to compute `n!` → return & print the result. |
+| 2 | **[Sum of Digits of a Number](./ex02_sum_of_numbers.py)** | Ask for an integer → treat it as a string → loop & sum the digits → print the total. |
+| 3 | **[Find the Minimum and Maximum in a List](./ex03_min_max_list.py)** | Ask for a list → use `min()` / `max()` → display both values. |
+| 4 | **[Average of Several Numbers](./ex04_average_list.py)** | Ask for numbers → compute `sum / len` → print the average. |
+| 5 | **[Generate a Multiplication Table](./ex05_multiplication_table.py)** | Ask for a base number & limit → loop and print `n × i` for each `i`. |
+| 6 | **[Solve a First‑Degree Equation (ax + b = 0)](./ex06_solve_linear_equation.py)** | Ask for `a`, `b` → if `a ≠ 0`, solve `x = −b/a`; else decide **no** / **infinite** solutions. |
+| 7 | **[Sum of Squares in a List](./ex07_sum_of_squares.py)** | Ask for a list → square each → sum & print. |
+| 8 | **[Average of Even Numbers in a List](./ex08_average_of_even_numbers.py)** | Ask for a list → filter evens → average them or report none. |
+| 9 | **[Check if a List is Increasing](./ex09_check_if_list_is_increasing.py)** | Verify each element is ≤ the next → print whether ascending. |
 
 ---
 
@@ -24,12 +24,12 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 10 | **[Find Prime Numbers in a List](./find_primes.py)** | Implement an `is_prime()` helper → apply it to the user’s list → return & display all primes. |
-| 11 | **[Find Multiples in a Range](./find_multiples.py)** | Given `n`, `a`, `b` → loop from `a` to `b` → collect numbers divisible by `n`. |
-| 12 | **[Calculate the GCD (Euclid’s Algorithm)](./gcd.py)** | Ask for two integers → use Euclid’s iterative method → print the GCD. |
-| 13 | **[Generate Fibonacci Sequence](./fibonacci.py)** | Ask for `n` terms → loop to build the sequence → return & print it. |
-| 14 | **[Find Perfect Numbers in a List](./perfect_numbers.py)** | For each number, sum its proper divisors → if equal to the number, keep it → display all perfect numbers found. |
-| 15 | **[Celsius ↔ Fahrenheit Converter](./temp_converter.py)** | Ask conversion direction → apply `C → F` or `F → C` formula → print the converted value. |
+| 10 | **[Find Prime Numbers in a List](./ex10_primes_in_list.py)** | Write `is_prime()` → apply to the list → display primes. |
+| 11 | **[Find Multiples in a Range](./ex11_multiples_of_n_in_range.py)** | Given `n`, `a`, `b` → loop `a…b` → collect numbers divisible by `n`. |
+| 12 | **[Calculate the GCD (Euclid’s Algorithm)](./ex12_gcd_euclidean_algorithm.py)** | Ask for two integers → use Euclid’s method → print the GCD. |
+| 13 | **[Generate Fibonacci Sequence](./ex13_fibonacci_sequence.py)** | Ask for `n` → loop to build the sequence → print it. |
+| 14 | **[Find Perfect Numbers in a List](./ex14_perfect_numbers.py)** | Sum proper divisors → keep numbers equal to that sum → display them. |
+| 15 | **[Celsius ↔ Fahrenheit Converter](./ex15_celsius_fahrenheit_converter.py)** | Ask conversion direction → apply `C → F` or `F → C` formula → print result. |
 
 ---
 
@@ -37,9 +37,9 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 16 | **[Implement Selection Sort](./selection_sort.py)** | Ask for a list → repeatedly find the smallest element and move it to the front using `list.remove()` → print the sorted list. |
-| 17 | **[Check if a String is a Palindrome](./palindrome.py)** | Ask for a string → ignore spaces / punctuation / case → print whether it’s a palindrome. |
-| 18 | **[Solve a Quadratic Equation](./quadratic_equation.py)** | Ask for `a`, `b`, `c` → compute the discriminant `Δ = b² − 4ac` → report real or complex roots. |
+| 16 | **[Implement Selection Sort](./ex16_selection_sort_min_only.py)** | Repeatedly find the smallest element & move it front using `list.remove()` → print sorted list. |
+| 17 | **[Check if a String is a Palindrome](./ex17_check_palindrome.py)** | Ignore spaces / punctuation / case → state if it’s a palindrome. |
+| 18 | **[Solve a Quadratic Equation](./ex18_solve_quadratic_equation.py)** | Ask for `a`, `b`, `c` → compute `Δ = b² − 4ac` → output real or complex roots. |
 
 ---
 
@@ -47,9 +47,9 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 ```bash
 # clone the repo
-git clone https://github.com/your‑username/python_practice.git
+git clone https://github.com/your-username/python_practice.git
 cd python_practice
 
 # run any exercise
-python factorial.py
+python ex01_factorial.py
 
