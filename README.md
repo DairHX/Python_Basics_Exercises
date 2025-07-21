@@ -24,12 +24,12 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 10 | **[Find Prime Numbers in a List](./ex10_primes_in_list.py)** | Write `is_prime()` → apply to the list → display primes. |
-| 11 | **[Find Multiples in a Range](./ex11_multiples_of_n_in_range.py)** | Given `n`, `a`, `b` → loop `a…b` → collect numbers divisible by `n`. |
-| 12 | **[Calculate the GCD (Euclid’s Algorithm)](./ex12_gcd_euclidean_algorithm.py)** | Ask for two integers → use Euclid’s method → print the GCD. |
-| 13 | **[Generate Fibonacci Sequence](./ex13_fibonacci_sequence.py)** | Ask for `n` → loop to build the sequence → print it. |
-| 14 | **[Find Perfect Numbers in a List](./ex14_perfect_numbers.py)** | Sum proper divisors → keep numbers equal to that sum → display them. |
-| 15 | **[Celsius ↔ Fahrenheit Converter](./ex15_celsius_fahrenheit_converter.py)** | Ask conversion direction → apply `C → F` or `F → C` formula → print result. |
+| 10 | **[Find Prime Numbers in a List](./intermediate_exercises/ex10_primes_in_list.py)** | Write `is_prime()` → apply to the list → display primes. |
+| 11 | **[Find Multiples in a Range](./intermediate_exercises/ex11_multiples_of_n_in_range.py)** | Given `n`, `a`, `b` → loop `a…b` → collect numbers divisible by `n`. |
+| 12 | **[Calculate the GCD (Euclid’s Algorithm)](./intermediate_exercises/ex12_gcd_euclidean_algorithm.py)** | Ask for two integers → use Euclid’s method → print the GCD. |
+| 13 | **[Generate Fibonacci Sequence](./intermediate_exercises/ex13_fibonacci_sequence.py)** | Ask for `n` → loop to build the sequence → print it. |
+| 14 | **[Find Perfect Numbers in a List](./intermediate_exercises/ex14_perfect_numbers.py)** | Sum proper divisors → keep numbers equal to that sum → display them. |
+| 15 | **[Celsius ↔ Fahrenheit Converter](./intermediate_exercises/ex15_celsius_fahrenheit_converter.py)** | Ask conversion direction → apply `C → F` or `F → C` formula → print result. |
 
 ---
 
@@ -37,9 +37,9 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 16 | **[Implement Selection Sort](./ex16_selection_sort_min_only.py)** | Repeatedly find the smallest element & move it front using `list.remove()` → print sorted list. |
-| 17 | **[Check if a String is a Palindrome](./ex17_check_palindrome.py)** | Ignore spaces / punctuation / case → state if it’s a palindrome. |
-| 18 | **[Solve a Quadratic Equation](./ex18_solve_quadratic_equation.py)** | Ask for `a`, `b`, `c` → compute `Δ = b² − 4ac` → output real or complex roots. |
+| 16 | **[Implement Selection Sort](./advanced_exercices/ex16_selection_sort_min_only.py)** | Repeatedly find the smallest element & move it front using `list.remove()` → print sorted list. |
+| 17 | **[Check if a String is a Palindrome](./advanced_exercices/ex17_check_palindrome.py)** | Ignore spaces / punctuation / case → state if it’s a palindrome. |
+| 18 | **[Solve a Quadratic Equation](./advanced_exercices/ex18_solve_quadratic_equation.py)** | Ask for `a`, `b`, `c` → compute `Δ = b² − 4ac` → output real or complex roots. |
 
 ---
 
