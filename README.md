@@ -1,191 +1,55 @@
-# 🧠 Python Practice Exercises (Simple to Advanced)
+# 🧠 Python Practice Exercises
 
-## ✅ Simple Exercises
-
-### 1. Calculate the Factorial of a Number
-
-- **Goal**: Create a function that calculates the factorial of a given integer.
-- **Instructions**:
-  - Ask the user to enter a positive integer.
-  - Use a loop to calculate the factorial.
-  - Return and print the result.
+A progressive set of hands‑on challenges—**simple → intermediate → advanced**—to sharpen your Python fundamentals for pentesting and beyond.
 
 ---
 
-### 2. Sum of Digits of a Number
+## ✅ Simple Exercises
 
-- **Goal**: Write a function that takes an integer and returns the sum of its digits.
-- **Instructions**:
-  - Ask the user to enter an integer.
-  - Convert it to a string to access each digit.
-  - Use a loop to sum the digits.
-
----
-
-### 3. Find the Minimum and Maximum in a List
-
-- **Goal**: Create a function that finds the minimum and maximum in a list of numbers.
-- **Instructions**:
-  - Ask the user to enter a list of numbers.
-  - Use built-in functions `min()` and `max()`.
-  - Display the results.
+| # | Exercise | Goal / Instructions |
+|---|----------|---------------------|
+| 1 | **[Calculate the Factorial of a Number](./factorial.py)** | Ask the user for a positive integer → use a loop to compute `n!` → return & print the result. |
+| 2 | **[Sum of Digits of a Number](./sum_of_digits.py)** | Ask for an integer → treat it as a string to access each character → loop & sum the digits → print the total. |
+| 3 | **[Find the Minimum and Maximum in a List](./min_max.py)** | Ask for a list of numbers → use built‑ins `min()` / `max()` → display both values. |
+| 4 | **[Average of Several Numbers](./average.py)** | Ask for a list of numbers → compute `sum / len` → print the average. |
+| 5 | **[Generate a Multiplication Table](./multiplication_table.py)** | Ask for a base number and an upper limit → loop and print `n × i` for every `i` up to the limit. |
+| 6 | **[Solve a First‑Degree Equation (ax + b = 0)](./linear_equation.py)** | Ask for `a` and `b` → if `a ≠ 0`, solve `x = −b/a`; if `a = 0`, decide whether there’s **no** or **infinite** solutions. |
+| 7 | **[Sum of Squares in a List](./sum_of_squares.py)** | Ask for a list of numbers → square each → sum and print the result. |
+| 8 | **[Average of Even Numbers in a List](./average_even.py)** | Ask for a list → filter evens → compute average or print a “no even numbers” message. |
+| 9 | **[Check if a List is Increasing](./is_increasing.py)** | Ask for a list → verify each element is ≤ the next → print whether it’s sorted ascendingly. |
 
 ---
 
-### 4. Average of Several Numbers
+## ⚙️ Intermediate Exercises
 
-- **Goal**: Calculate the average of a list of numbers.
-- **Instructions**:
-  - Ask the user to enter numbers as a list.
-  - Calculate the sum and then the average.
-  - Display the average.
-
----
-
-### 5. Generate a Multiplication Table
-
-- **Goal**: Generate a multiplication table for a given number up to a limit.
-- **Instructions**:
-  - Ask the user for a number and a maximum value.
-  - Print the multiplication table.
+| # | Exercise | Goal / Instructions |
+|---|----------|---------------------|
+| 10 | **[Find Prime Numbers in a List](./find_primes.py)** | Implement an `is_prime()` helper → apply it to the user’s list → return & display all primes. |
+| 11 | **[Find Multiples in a Range](./find_multiples.py)** | Given `n`, `a`, `b` → loop from `a` to `b` → collect numbers divisible by `n`. |
+| 12 | **[Calculate the GCD (Euclid’s Algorithm)](./gcd.py)** | Ask for two integers → use Euclid’s iterative method → print the GCD. |
+| 13 | **[Generate Fibonacci Sequence](./fibonacci.py)** | Ask for `n` terms → loop to build the sequence → return & print it. |
+| 14 | **[Find Perfect Numbers in a List](./perfect_numbers.py)** | For each number, sum its proper divisors → if equal to the number, keep it → display all perfect numbers found. |
+| 15 | **[Celsius ↔ Fahrenheit Converter](./temp_converter.py)** | Ask conversion direction → apply `C → F` or `F → C` formula → print the converted value. |
 
 ---
 
-### 6. Solve a First-Degree Equation (`ax + b = 0`)
+## 🔬 Advanced Exercises
 
-- **Goal**: Solve an equation of the form `ax + b = 0`.
-- **Instructions**:
-  - Ask for `a` and `b`.
-  - If `a ≠ 0`, solve the equation.
-  - If `a = 0`, determine if there's a solution.
-
----
-
-### 7. Sum of Squares in a List
-
-- **Goal**: Return the sum of squares of numbers in a list.
-- **Instructions**:
-  - Ask for a list of numbers.
-  - Square each and sum the result.
-  - Return and print it.
+| # | Exercise | Goal / Instructions |
+|---|----------|---------------------|
+| 16 | **[Implement Selection Sort](./selection_sort.py)** | Ask for a list → repeatedly find the smallest element and move it to the front using `list.remove()` → print the sorted list. |
+| 17 | **[Check if a String is a Palindrome](./palindrome.py)** | Ask for a string → ignore spaces / punctuation / case → print whether it’s a palindrome. |
+| 18 | **[Solve a Quadratic Equation](./quadratic_equation.py)** | Ask for `a`, `b`, `c` → compute the discriminant `Δ = b² − 4ac` → report real or complex roots. |
 
 ---
 
-### 8. Average of Even Numbers in a List
+### How to Run
 
-- **Goal**: Return the average of even numbers in a list.
-- **Instructions**:
-  - Ask for a list of numbers.
-  - Extract even numbers.
-  - Compute and print the average, or show a message if none.
+```bash
+# clone the repo
+git clone https://github.com/your‑username/python_practice.git
+cd python_practice
 
----
+# run any exercise
+python factorial.py
 
-### 9. Check if a List is Increasing
-
-- **Goal**: Check if a list is sorted in ascending order.
-- **Instructions**:
-  - Ask for a list of numbers.
-  - Check if each element is less than or equal to the next.
-  - Print the result.
-
----
-
-## ⚙️ Intermediate Exercises
-
-### 10. Find Prime Numbers in a List
-
-- **Goal**: Return a list of primes from a list of numbers.
-- **Instructions**:
-  - Create a function to check for primality.
-  - Apply it to each element in the user list.
-  - Return and display primes.
-
----
-
-### 11. Find Multiples in a Range
-
-- **Goal**: Return all multiples of `n` between `a` and `b` (inclusive).
-- **Instructions**:
-  - Use a loop from `a` to `b`.
-  - Check if a number is divisible by `n`.
-  - Add to the result list.
-
----
-
-### 12. Calculate the GCD (Greatest Common Divisor)
-
-- **Goal**: Calculate the GCD using Euclid’s algorithm.
-- **Instructions**:
-  - Ask the user for two integers.
-  - Use Euclid’s algorithm to compute GCD.
-  - Display the result.
-
----
-
-### 13. Generate Fibonacci Sequence
-
-- **Goal**: Generate the first `n` terms of the Fibonacci sequence.
-- **Instructions**:
-  - Ask the user for a number `n`.
-  - Use a loop to generate the sequence.
-  - Return and print the list.
-
----
-
-### 14. Find Perfect Numbers in a List
-
-- **Goal**: Return perfect numbers from a list.
-- **Instructions**:
-  - Ask for a list of numbers.
-  - For each number, sum its proper divisors.
-  - Check if equal to the number.
-
----
-
-### 15. Celsius ↔ Fahrenheit Converter
-
-- **Goal**: Convert temperature between Celsius and Fahrenheit.
-- **Instructions**:
-  - Ask the user for conversion direction.
-  - Use formulas:
-    - `C → F`: `(C * 9/5) + 32`
-    - `F → C`: `(F - 32) * 5/9`
-  - Print the result.
-
----
-
-## 🔬 Advanced Exercises
-
-### 16. Implement Selection Sort
-
-- **Goal**: Sort a list using the selection sort algorithm.
-- **Instructions**:
-  - Ask for a list of numbers.
-  - Implement selection sort:
-    - At each step, find the smallest number and place it at the start.
-  - Use `list.remove(x)` in your code.
-  - Display the sorted list.
-
----
-
-### 17. Check if a String is a Palindrome
-
-- **Goal**: Check if a string is a palindrome.
-- **Instructions**:
-  - Ask for a string.
-  - Ignore spaces, punctuation, and capitalization.
-  - Display whether it's a palindrome or not.
-
----
-
-### 18. Solve a Quadratic Equation
-
-- **Goal**: Solve `ax² + bx + c = 0` using the discriminant.
-- **Instructions**:
-  - Ask for coefficients `a`, `b`, and `c`.
-  - Calculate the discriminant: `Δ = b² - 4ac`.
-  - Determine the number of real or complex solutions.
-  - Display the solutions.
-
----
