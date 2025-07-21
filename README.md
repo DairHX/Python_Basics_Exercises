@@ -45,11 +45,11 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 ### How to Run
 
-bash
+```bash
 # clone the repo
 git clone https://github.com/your-username/python_practice.git
 cd python_practice
 
 # run any exercise
-python ex01_factorial.py
+python simple_exercises/ex01_factorial.py
 
