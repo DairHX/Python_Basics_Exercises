@@ -8,15 +8,15 @@ A progressive set of hands‑on challenges—**simple → intermediate → advan
 
 | # | Exercise | Goal / Instructions |
 |---|----------|---------------------|
-| 1 | **[Calculate the Factorial of a Number](./ex01_factorial.py)** | Ask the user for a positive integer → use a loop to compute `n!` → return & print the result. |
-| 2 | **[Sum of Digits of a Number](./ex02_sum_of_numbers.py)** | Ask for an integer → treat it as a string → loop & sum the digits → print the total. |
-| 3 | **[Find the Minimum and Maximum in a List](./ex03_min_max_list.py)** | Ask for a list → use `min()` / `max()` → display both values. |
-| 4 | **[Average of Several Numbers](./ex04_average_list.py)** | Ask for numbers → compute `sum / len` → print the average. |
-| 5 | **[Generate a Multiplication Table](./ex05_multiplication_table.py)** | Ask for a base number & limit → loop and print `n × i` for each `i`. |
-| 6 | **[Solve a First‑Degree Equation (ax + b = 0)](./ex06_solve_linear_equation.py)** | Ask for `a`, `b` → if `a ≠ 0`, solve `x = −b/a`; else decide **no** / **infinite** solutions. |
-| 7 | **[Sum of Squares in a List](./ex07_sum_of_squares.py)** | Ask for a list → square each → sum & print. |
-| 8 | **[Average of Even Numbers in a List](./ex08_average_of_even_numbers.py)** | Ask for a list → filter evens → average them or report none. |
-| 9 | **[Check if a List is Increasing](./ex09_check_if_list_is_increasing.py)** | Verify each element is ≤ the next → print whether ascending. |
+| 1 | **[Calculate the Factorial of a Number](./simple_exercises/ex01_factorial.py)** | Ask the user for a positive integer → use a loop to compute `n!` → return & print the result. |
+| 2 | **[Sum of Digits of a Number](./simple_exercises/ex02_sum_of_numbers.py)** | Ask for an integer → treat it as a string → loop & sum the digits → print the total. |
+| 3 | **[Find the Minimum and Maximum in a List](./simple_exercises/ex03_min_max_list.py)** | Ask for a list → use `min()` / `max()` → display both values. |
+| 4 | **[Average of Several Numbers](./simple_exercises/ex04_average_list.py)** | Ask for numbers → compute `sum / len` → print the average. |
+| 5 | **[Generate a Multiplication Table](./simple_exercises/ex05_multiplication_table.py)** | Ask for a base number & limit → loop and print `n × i` for each `i`. |
+| 6 | **[Solve a First‑Degree Equation (ax + b = 0)](./simple_exercises/ex06_solve_linear_equation.py)** | Ask for `a`, `b` → if `a ≠ 0`, solve `x = −b/a`; else decide **no** / **infinite** solutions. |
+| 7 | **[Sum of Squares in a List](./simple_exercises/ex07_sum_of_squares.py)** | Ask for a list → square each → sum & print. |
+| 8 | **[Average of Even Numbers in a List](./simple_exercises/ex08_average_of_even_numbers.py)** | Ask for a list → filter evens → average them or report none. |
+| 9 | **[Check if a List is Increasing](./simple_exercises/ex09_check_if_list_is_increasing.py)** | Verify each element is ≤ the next → print whether ascending. |
 
 ---
 
