@@ -1,6 +1,6 @@
 # 🧠 Python Practice Exercises
 
-A progressive set of hands‑on challenges—**simple → intermediate → advanced**—to sharpen your Python fundamentals before **[Python_For Pentesters_Basics](https://github.com/DairHX/Python_For_Pentesters_Basics))** and beyond.
+A progressive set of hands‑on challenges—**simple → intermediate → advanced**—to sharpen your Python fundamentals before **[Python_For Pentesters_Basics](https://github.com/DairHX/Python_For_Pentesters_Basics)** and beyond.
 
 ---
 
